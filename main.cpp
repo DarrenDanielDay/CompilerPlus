@@ -10,8 +10,6 @@ using namespace CompilerPlus::Utility;
 void demo();
 int main() {
 	demo();
-	//demo_direct();
-	//test_lambda([](int x) ->bool {return false; });
 	return 0;
 }
 

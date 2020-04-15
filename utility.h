@@ -96,8 +96,6 @@ namespace CompilerPlus {
 				delete strs;
 			}
 			virtual Iterator<string>* GetIterator() override;
-
-			// Í¨¹ý Iterator ¼Ì³Ð
 			virtual string* Next() override;
 			virtual bool HasNext() override;
 		private:
